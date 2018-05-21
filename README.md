@@ -31,9 +31,6 @@ dep_observer_cli = hex 1.3.1
    def deps do                                                          
      [{:observer_cli, "~> 1.3.1"}]
    end
-   def application do
-     [extra_applications: [:observer_cli]]
-  end
 ```  
 ------------------
 ### How-To
